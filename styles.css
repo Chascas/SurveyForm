@@ -1,0 +1,18 @@
+h1 {
+  color: rgb(129, 11, 129);
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+label {
+  display: block;
+  border: rgb(73, 72, 72);
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 15px;
+}

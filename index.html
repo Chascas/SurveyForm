@@ -1,0 +1,44 @@
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Amatic+SC:wght@700&family=Archivo+Black&family=Be+Vietnam+Pro:wght@100&family=Bebas+Neue&family=Inter:wght@300;500&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <h1 id="title">In which direction do you think Prince Harry will influence Britain and the monarchy?</h1>
+    <p id="description">With the coronation coming up and the recent release of Prince Harry's autobiography, Spare, Britain's future has become a topic. Tell us your thoughts.</p>
+  <form id="survey-form">
+    <label id="name-label">Name:</label>
+    <input type="text" placeholder="Enter your name" id="name"> 
+    <label id="email-label">Email:</label>
+    <input type="email" placeholder="Enter your email" id="email">
+    <label id="number-label">Age: (optional)</label>
+    <input type="number" placeholder="Age" id="number" min=5 max=120>
+    <label for="occupation">Which best describes your occupation?</label>
+    <select name="occupation" id="dropdown" placeholder="Select current role">
+    <option value="student">Student</option>
+    <option value="full-time">Work Full Time</option>
+    <option value="part-time">Work Part Time</option>
+    </select>
+    <p>Do you think the British monarchy will still possess power in 10 years from now?</p>
+   <input type="radio" name="monarchy-existence" value="monarchy-existence">
+   <label for="existence">Yes</label>
+   <input type="radio" name="monarchy-existence" value="monarchy-existence">
+   <label for="existence">No</label>
+   <p>Which sources do you use?</p>
+   <input type="checkbox" value="press">
+   <label for="press">British press</label>
+   <input type="checkbox" value="social-media">
+   <label for="social-media">Social Media 
+(i.e. Twitter, Instagram, Tiktok)
+    <input type="checkbox" name="bigoraphies" value="biographies">
+    <label for="books">Royal biographies (official or unofficial)
+     <label for="comments">Additional comments (optional):</label>
+      <textarea id="comments" name="comments"></textarea>
+      <button type="submit" id="submit">Submit</button>
+  </form>
+  </body>
+</html>
